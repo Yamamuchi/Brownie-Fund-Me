@@ -11,8 +11,7 @@ def deploy_fund_me():
     account = get_account()
 
     # Pass the price feed address to our FundMe contract
-
-    # If we are on a persistent network like rinkeby, use the associated address
+    # If you are on a persistent network like rinkeby, use the associated address
     # Otherwise, deploy mocks
     print(f"The active network is {network.show_active()}")
 
